@@ -34,6 +34,9 @@ Ferramentas Utilizadas:
   -  Editor SQL integrado, fácil de usar;
   -  Gratuito - Plano free generoso para aprender.
 
+1° Realizar login no Supabase e criar um projeto/banco de dados (ecommerce);
+2° Subir os arquivos CSV (produtos, clientes, vendas e preco_competidores);
+
 ---
 ## 5° Insights da Análise
 Não basta somente apresentar os dados ou visuais, é extremamente importante explicar com palavras o que o gráfico quer dizer, não acredite que os stakeholders entenderam os gráficos simplesmente observando, a parte técnica deve ser abstraída para que todos entendam. A análise dos dados permitiu identificar padrões relevantes como:
