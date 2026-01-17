@@ -10,8 +10,48 @@ Uma empresa de e-commerce está aumentando sua operação digital e precisa usar
   - Quem são os clientes mais valiosos (top clientes) e quanto eles representam da nossa receita total?
    Impacto: deixa claro o “efeito 80/20” e abre decisões de retenção.
    - Quais produtos estão mais caros que o mercado, e qual é o risco/oportunidade de ajuste de preço?
+ - Utilizar inteligência artificial para apoiar decisões.
+    
+ - Análises de Produtos:
+   - Quais produtos temos no catálogo?
+   - Quais são os produtos mais caros?
+   - Quais são os 10 primeiros produtos mais caros?
+   - Quais produtos custam mais de R$ 500?
+   - Quais produtos nunca foram vendidos?
+   - Classifique os produtos por faixa de preço?
+   - Quais produtos têm preço acima da média geral?
   
-- Utiliza inteligência artificial para apoiar decisões.
+- Análises de Vendas:
+  - Qual é o total de vendas, receita total e ticket médio?
+  - Qual é a maior e menor venda?
+  - Quantos produtos diferentes foram vendidos?
+  - Como ver o nome do produto junto com a venda?
+  - Quantas vendas e qual a receita total por categoria?
+  - Quais categorias geram mais de R$ 50.000 em receita?
+  - Qual é a distribuição percentual de receita por canal?
+  - Quais vendas foram feitas de produtos não cadastrados?
+
+- Análises de Clientes:
+  - Quem são nossos clientes?
+  - Quais clientes compram mais?
+
+- Análise Competitiva:
+  - Quais produtos estão mais caros que a média dos concorrentes?
+  - Quais produtos estão mais baratos no concorrente do que na nossa tabela?
+  - Qual é a diferença percentual entre nossos preços e dos concorrentes?
+  - Quais produtos top sellers estão mais caros que todos os concorrentes?
+
+- Análises Avançadas:
+  - Qual é a receita total por categoria?
+  - Quais categorias geram mais de R$ 50.000 em receita?
+  - Qual é o ticket médio por segmento de cliente?
+  - Quais produtos têm preço acima da média geral?
+  - Quais produtos estão mais caros que a média dos concorrentes?
+  
+- Estruturas de Dados:
+  - Como criar uma visão para produtos com vendas?
+  - Como criar uma tabela para armazenar resumo de vendas por categoria?
+  - Como criar uma visão temporária para análise rápida?
 
 ---
 ## 2° Contexto
