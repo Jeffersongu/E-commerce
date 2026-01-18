@@ -3,12 +3,7 @@
 ## 1° Problema de Negócio
 Uma empresa de e-commerce está aumentando sua operação digital e precisa usar dados para tomar decisões melhores. Você vai construir um sistema completo de dados que:
 - Conecta dados de diferentes fontes;
-- Estrutura um pipeline automático de engenharia de dados:
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/783ac918-a4cb-4902-9fe2-1f42176a8685" width="800" alt="image">
-</p>
-
+- Estrutura um pipeline automático de engenharia de dados;
 - Analisa vendas e clientes:
   - Quais são os TOP produtos que mais geram receita, e em qual canal (e-commerce vs loja física) eles performam melhor?
    Impacto: mostra onde está o dinheiro e onde dobrar a aposta.
@@ -119,6 +114,9 @@ Data Lake S3 - Supabase Storage:
 
 5° Após a ingestão no banco de dados ecommerce realizar o Tratamento dos dados utilizando a arquitetura medalhão 
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/783ac918-a4cb-4902-9fe2-1f42176a8685" width="800" alt="image">
+</p>
 ---
 ## 5° Insights da Análise
 Não basta somente apresentar os dados ou visuais, é extremamente importante explicar com palavras o que o gráfico quer dizer, não acredite que os stakeholders entenderam os gráficos simplesmente observando, a parte técnica deve ser abstraída para que todos entendam. A análise dos dados permitiu identificar padrões relevantes como:
