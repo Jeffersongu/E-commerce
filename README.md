@@ -80,11 +80,18 @@ Ferramentas Utilizadas:
 
 - Supabase:
   - Supabase é essencialmente PostgreSQL com uma interface moderna e ferramentas extras;
+  -  Compatível com AWS S3;
   -  Interface web;
   -  Editor SQL integrado, fácil de usar;
   -  Gratuito - Plano free generoso para aprender.
+ 
+- Python:
+  - Google Colab;
+  - Ecossistema rico: Boto3, SQLAlchemy, Pandas;
+  - Integração: Fácil integração com bancos de dados, APIs, sistemas.
 
 1° Realizar login no Supabase e criar um projeto/banco de dados (ecommerce);
+ 
 
 2° Subir os arquivos CSV para o banco de dados Ecommerce (produtos, clientes e vendas):
 
@@ -92,10 +99,18 @@ Ferramentas Utilizadas:
   <img src="https://github.com/user-attachments/assets/19395688-a4b0-47c0-a8a7-ad3341efef68" width="400" alt="image">
 </p>
 
-3° Desenvolver um Data Lake - Amazon S3:
+3° Desenvolver um Data Lake S3 - Supabase Storage;
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/9a646442-db66-48be-bc8d-b3c0d8c60e62" width="600" alt="image">
+</p>
+
+Diferenças entre Data Lake e Banco de Dados: Data Lake é um local para armazenar dados em diversos formatos, ou seja, arquivos estruturados, semi estruturados e não estruturados, normalmente estão em cloud e o acesso ocorre por uma API/LIB. Banco de dados contém tabelas, ou seja, dados estruturados.
+
+Data Lake S3 - Supabase Storage:
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9ba4053a-f475-406f-84bf-0f668d7d96ba" width="600" alt="image">
 </p>
 
 4° Ingestão de dados com Python arquivo em formato parquet (preco_competidores) com IDE Google Coolab;
@@ -122,3 +137,4 @@ O que faríamos com mais tempo para trabalhar neste projeto por exemplo:
 - Cria um banco de dados local (PostgreSQL);
 - Desenvolver um Dashboard;
 - Web Scraping - Análise de concorrência;
+- API Externas;
