@@ -117,6 +117,7 @@ Data Lake S3 - Supabase Storage:
 <p align="center">
   <img src="https://github.com/user-attachments/assets/783ac918-a4cb-4902-9fe2-1f42176a8685" width="800" alt="image">
 </p>
+
 ---
 ## 5° Insights da Análise
 Não basta somente apresentar os dados ou visuais, é extremamente importante explicar com palavras o que o gráfico quer dizer, não acredite que os stakeholders entenderam os gráficos simplesmente observando, a parte técnica deve ser abstraída para que todos entendam. A análise dos dados permitiu identificar padrões relevantes como:
