@@ -3,7 +3,11 @@
 ## 1° Problema de Negócio
 Uma empresa de e-commerce está aumentando sua operação digital e precisa usar dados para tomar decisões melhores. Você vai construir um sistema completo de dados que:
 - Conecta dados de diferentes fontes;
-- Estrutura um pipeline automático de engenharia de dados;
+- Estrutura um pipeline automático de engenharia de dados:
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/783ac918-a4cb-4902-9fe2-1f42176a8685" width="800" alt="image">
+</p>
 
 - Analisa vendas e clientes:
   - Quais são os TOP produtos que mais geram receita, e em qual canal (e-commerce vs loja física) eles performam melhor?
@@ -81,7 +85,24 @@ Ferramentas Utilizadas:
   -  Gratuito - Plano free generoso para aprender.
 
 1° Realizar login no Supabase e criar um projeto/banco de dados (ecommerce);
-2° Subir os arquivos CSV (produtos, clientes, vendas e preco_competidores);
+
+2° Subir os arquivos CSV para o banco de dados Ecommerce (produtos, clientes e vendas):
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/19395688-a4b0-47c0-a8a7-ad3341efef68" width="400" alt="image">
+</p>
+
+3° Desenvolver um Data Lake - Amazon S3:
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9a646442-db66-48be-bc8d-b3c0d8c60e62" width="600" alt="image">
+</p>
+
+4° Ingestão de dados com Python arquivo em formato parquet (preco_competidores) com IDE Google Coolab;
+ 
+ Colocar o código aqui!
+
+5° Após a ingestão no banco de dados ecommerce realizar o Tratamento dos dados utilizando a arquitetura medalhão 
 
 ---
 ## 5° Insights da Análise
@@ -98,5 +119,6 @@ Conclusão das análises, depois que descrevemos os visuais e encontramos pontos
 ## 7° Próximos Passos
 O que faríamos com mais tempo para trabalhar neste projeto por exemplo:
 
-- Cria um banco de dados local (PostgreSQL)
-- Desenvolver um Dashboard
+- Cria um banco de dados local (PostgreSQL);
+- Desenvolver um Dashboard;
+- Web Scraping - Análise de concorrência;
