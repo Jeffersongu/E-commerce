@@ -115,11 +115,11 @@ Data Lake S3 - Supabase Storage:
 - Imagem da tabela:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/554e2aff-cdad-49de-88e3-2d4101072a75" width="800" alt="image">
+  <img src="https://github.com/user-attachments/assets/554e2aff-cdad-49de-88e3-2d4101072a75" width="600" alt="image">
 </p>
  
  
-5° Após a ingestão no banco de dados ecommerce realizar o Tratamento dos dados utilizando a arquitetura medalhão 
+5° Tratamento dos dados utilizando DBT com a arquitetura medalhão 
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/783ac918-a4cb-4902-9fe2-1f42176a8685" width="800" alt="image">
