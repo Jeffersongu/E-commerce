@@ -110,8 +110,17 @@ Data Lake S3 - Supabase Storage:
 
 4° Ingestão de dados com Python arquivo em formato parquet (preco_competidores) com IDE Google Coolab;
  
- Colocar o código aqui!
+ Colocar o código aqui - Ingestão Extract!
+md
+ 
+ 
+ Colocar o código aqui - Ingestão Load!
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/554e2aff-cdad-49de-88e3-2d4101072a75" width="800" alt="image">
+</p>
+ 
+ 
 5° Após a ingestão no banco de dados ecommerce realizar o Tratamento dos dados utilizando a arquitetura medalhão 
 
 <p align="center">
