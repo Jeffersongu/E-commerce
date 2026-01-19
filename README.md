@@ -110,8 +110,7 @@ Data Lake S3 - Supabase Storage:
 
 4° Ingestão de dados com Python arquivo em formato parquet (preco_competidores) com IDE Google Coolab;
  
- Colocar o código aqui - Ingestão Extract!
-md
+Ingestão_de_Dados.ipynb
  
  
  Colocar o código aqui - Ingestão Load!
