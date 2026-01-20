@@ -85,6 +85,15 @@ Ferramentas Utilizadas:
   - Ecossistema rico: Boto3, SQLAlchemy, Pandas;
   - Integração: Fácil integração com bancos de dados, APIs, sistemas.
 
+- DBT:
+  -  Código versionado (Git);
+  -  Testes integrados de qualidade dos dados;
+  -  Orquestração de dependências claras (resolvidas automaticamente);
+  -  Padrões de modelagem (bronze, silver, gold);
+  -  Documentação automática;
+  -  Transformação dos dados usando SQL;
+  -  Modelo de transformação reutilizavável.
+
 1° Realizar login no Supabase e criar um projeto/banco de dados (ecommerce);
  
 
@@ -119,7 +128,10 @@ Data Lake S3 - Supabase Storage:
 </p>
  
  
-5° Tratamento dos dados utilizando DBT com a arquitetura medalhão 
+5° Tratamento dos dados utilizando DBT com a arquitetura medalhão;
+
+- Camada Bronze (Raw Data) - Objetivo: Capturar dados exatamente como vêm da fonte e criar o contrato mínimo do dado;
+- 
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/783ac918-a4cb-4902-9fe2-1f42176a8685" width="800" alt="image">
