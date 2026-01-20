@@ -92,6 +92,7 @@ Ferramentas Utilizadas:
   -  Padrões de modelagem (bronze, silver, gold);
   -  Documentação automática;
   -  Transformação dos dados usando SQL;
+  -  Linha de execução com visualização como os modelos se relacionam;
   -  Modelo de transformação reutilizavável.
 
 1° Realizar login no Supabase e criar um projeto/banco de dados (ecommerce);
@@ -130,8 +131,27 @@ Data Lake S3 - Supabase Storage:
  
 5° Tratamento dos dados utilizando DBT com a arquitetura medalhão;
 
-- Camada Bronze (Raw Data) - Objetivo: Capturar dados exatamente como vêm da fonte e criar o contrato mínimo do dado;
-- 
+- Camada Bronze (Raw Data) - Objetivo: Capturar dados exatamente como vêm da fonte e criar o contrato mínimo do dado - Características:
+  - Dados brutos, com transformações mínimas;
+  - Padronização básica (seleciona colunas explícitas, padronização de nomes, tipos, remove lixo e adiciona);
+  - Permite replay (reprocessar se necessário);
+  - Histórico completo;
+  - Schema estável (contrato fixo).
+
+- Camada Silver (Cleaned Data) - Objetivo: Limpar, padronizar e enriquecer dados - Características:
+  - Dados limpos e padronizados;
+  - Validações aplicadas;
+  - Tratamento de nulos e duplicatas;
+  - Enriquecimentos básicos;
+  - Schema otimizado para análise.
+
+- Camada Gold (Business Metrics e Data Marts) - Objetivo: Criar métricas de negócio prontas para análise, organizadas em Data Marts - Características:
+  - KPIs e métricas de negócio;
+  - Organizados em Data Marts (áreas de negócio);
+  - Agregações complexas;
+  - Rankings e segmentações;
+  - Dados prontos para dashboards;
+  - Schema otimizado para consumo.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/783ac918-a4cb-4902-9fe2-1f42176a8685" width="800" alt="image">
