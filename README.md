@@ -129,7 +129,15 @@ Data Lake S3 - Supabase Storage:
 </p>
  
  
-5° Tratamento dos dados utilizando DBT com a arquitetura medalhão;
+5° Este projeto recria os principais KPIs utilizando o DBT para tratar os dados e arquitetura Medalhão. Os KPIs estão organizados em 3 Data Marts (áreas de negócio), seguindo o padrão usado pelas empresas:
+
+- Data Wharehouse - Objetivo: Repositório centralizado de dados organizados para análise e relatórios;: 
+  - Repositório centralizado de dados organizados para análise e relatórios;
+  - Performance para consultas;
+  - Mantém histórico de dados para análise temporal;
+  - Integração com múltiplas fontes de dados;
+  - Estrutura otimizada para análises complexas;
+  - Isolamento, não impacta sistemas operacionais.
 
 - Camada Bronze (Raw Data) - Objetivo: Capturar dados exatamente como vêm da fonte e criar o contrato mínimo do dado - Características:
   - Dados brutos, com transformações mínimas;
@@ -152,6 +160,15 @@ Data Lake S3 - Supabase Storage:
   - Rankings e segmentações;
   - Dados prontos para dashboards;
   - Schema otimizado para consumo.
+
+- Data Marts - Objetivo: Criar subconjuntos de dados organizados por área de negócio - Características:
+  - Foco: Cada área tem seus KPIs específicos;
+  - Performance: Consultas mais rápidas (dados organizados);
+  - Manutenção: Mais fácil de manter e atualizar;
+  - Colaboração: Times diferentes trabalham em áreas diferentes;
+  - Segurança: Permissões por área de negócio.
+
+6° Transformação dos dados com DBT e IDE na Cloud  
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/783ac918-a4cb-4902-9fe2-1f42176a8685" width="800" alt="image">
