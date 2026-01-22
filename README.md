@@ -139,7 +139,7 @@ Data Lake S3 - Supabase Storage:
   - Estrutura otimizada para análises complexas;
   - Isolamento, não impacta sistemas operacionais.
 
-- Camada Bronze (Raw Data) - Objetivo: Capturar dados exatamente como vêm da fonte e criar o contrato mínimo do dado - Características:
+- Camada Bronze (Raw Data) - Objetivo: Capturar dados exatamente como vêm da fonte (cópia) e criar o contrato mínimo do dado - Características:
   - Dados brutos, com transformações mínimas;
   - Padronização básica (seleciona colunas explícitas, padronização de nomes, tipos, remove lixo e adiciona);
   - Permite replay (reprocessar se necessário);
@@ -168,7 +168,47 @@ Data Lake S3 - Supabase Storage:
   - Colaboração: Times diferentes trabalham em áreas diferentes;
   - Segurança: Permissões por área de negócio.
 
-6° Transformação dos dados com DBT e IDE na Cloud  
+6° Transformação dos dados com DBT - IDE na Cloud;
+
+7° Criar a conta Try DBT com o Projeto AnalyticsEcommerce;
+
+8° Selecionar a conexão com PostgreSQL no DBT e preencha com os dados de conexão do banco ecommerce na IDE Supabase (PostgreSQL):
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e1c9adad-41d1-4c4f-9cf2-fbc7b0cf1413" width="800" alt="image">
+</p>
+
+9° Set o projeto no repositório do GitHub;
+
+10° Iniciar o dbt project e realize o commit (Models: Delete folder example e crie Folder bronze, silver e gold);
+
+11° Configure o arquivo dbt_project.yml é o coração do projeto dbt. Ele define como o dbt vai se comportar:
+  - Define o nome do projeto;
+  - Configura onde estão os modelos, macros, testes;
+  - Define materializações padrão por camada (bronze=view, silver=table, gold=table);
+  - Define schemas por camada (bronze, silver, gold);
+  - Define variáveis do projeto (thresholds, top N, etc.).
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cb547e37-3143-4edc-8ff7-1204c69f1d52" width="800" alt="image">
+</p>
+
+
+12° Definir a fontes de Dados (_sources.yml) com o arquivo _sources.yml que documenta as tabelas raw (fonte original dos dados):
+  - Define de onde vêm os dados (tabelas raw);
+  - Documenta colunas e tipos;
+  - Permite usar {{ source('raw', 'produtos') }} nos modelos;
+  - Habilita testes nas fontes.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3a2a9670-5c4e-4f09-93e1-9d3638071074" width="800" alt="image">
+</p>
+
+13° Defina os scrypts sql para cada tabela das camadas (commit e merge em cada camada), para finalizar materialize as tabelas no banco ecommerce (Build models);
+
+14° Para a camada Gold crie subcamadas (Sales, Pricing e Customer_success) e salve os scrypts;
+
+
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/783ac918-a4cb-4902-9fe2-1f42176a8685" width="800" alt="image">
