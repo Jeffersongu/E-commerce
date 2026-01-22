@@ -208,6 +208,9 @@ Data Lake S3 - Supabase Storage:
 
 14° Para a camada Gold crie subcamadas (Sales, Pricing e Customer_success) e salve os scrypts;
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/da11bd76-df72-419f-af72-ac6d221c57d5" width="800" alt="image">
+</p>
 
 
 <p align="center">
