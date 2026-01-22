@@ -1,5 +1,7 @@
 # E-commerce
 
+<!-- https://github.com/gabriellbezerra/ed_de_ecommerce_dw_to_n8n_agent -->
+
 ## 1° Problema de Negócio
 Uma empresa de e-commerce está aumentando sua operação digital e precisa usar dados para tomar decisões melhores. Você vai construir um sistema completo de dados que:
 - Conecta dados de diferentes fontes;
