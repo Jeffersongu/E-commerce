@@ -7,53 +7,55 @@ Uma empresa de e-commerce está aumentando sua operação digital e precisa usar
 - Conecta dados de diferentes fontes;
 - Estrutura um pipeline automático de engenharia de dados;
 - Analisa vendas e clientes:
-- Quais são os TOP produtos que mais geram receita, e em qual canal (e-commerce vs loja física) eles performam melhor?
-Impacto: mostra onde está o dinheiro e onde dobrar a aposta.
-- Quem são os clientes mais valiosos (top clientes) e quanto eles representam da nossa receita total?
-Impacto: deixa claro o “efeito 80/20” e abre decisões de retenção.
-- Quais produtos estão mais caros que o mercado, e qual é o risco/oportunidade de ajuste de preço?
+  - Quais são os TOP produtos que mais geram receita, e em qual canal (e-commerce vs loja física) eles performam melhor?
+    Impacto: mostra onde está o dinheiro e onde dobrar a aposta.
+    
+  - Quem são os clientes mais valiosos (top clientes) e quanto eles representam da nossa receita total?
+    Impacto: deixa claro o “efeito 80/20” e abre decisões de retenção.
+    
+  - Quais produtos estão mais caros que o mercado, e qual é o risco/oportunidade de ajuste de preço?
 
 - Análises de Produtos:
-- Quais produtos temos no catálogo?
-- Quais são os produtos mais caros?
-- Quais são os 10 primeiros produtos mais caros?
-- Quais produtos custam mais de R$ 500?
-- Quais produtos nunca foram vendidos?
-- Classifique os produtos por faixa de preço?
-- Quais produtos têm preço acima da média geral?
+  - Quais produtos temos no catálogo?
+  - Quais são os produtos mais caros?
+  - Quais são os 10 primeiros produtos mais caros?
+  - Quais produtos custam mais de R$ 500?
+  - Quais produtos nunca foram vendidos?
+  - Classifique os produtos por faixa de preço?
+  - Quais produtos têm preço acima da média geral?
 
 - Análises de Vendas:
-- Qual é o total de vendas, receita total e ticket médio?
-- Qual é a maior e menor venda?
-- Quantos produtos diferentes foram vendidos?
-- Como ver o nome do produto junto com a venda?
-- Quantas vendas e qual a receita total por categoria?
-- Quais categorias geram mais de R$ 50.000 em receita?
-- Qual é a distribuição percentual de receita por canal?
-- Quais vendas foram feitas de produtos não cadastrados?
+  - Qual é o total de vendas, receita total e ticket médio?
+  - Qual é a maior e menor venda?
+  - Quantos produtos diferentes foram vendidos?
+  - Como ver o nome do produto junto com a venda?
+  - Quantas vendas e qual a receita total por categoria?
+  - Quais categorias geram mais de R$ 50.000 em receita?
+  - Qual é a distribuição percentual de receita por canal?
+  - Quais vendas foram feitas de produtos não cadastrados?
 
 - Análises de Clientes:
-- Quem são nossos clientes?
-- Quais clientes compram mais?
+  - Quem são nossos clientes?
+  - Quais clientes compram mais?
 
 
 - Análise Competitiva:
-- Quais produtos estão mais caros que a média dos concorrentes?
-- Quais produtos estão mais baratos no concorrente do que na nossa tabela?
-- Qual é a diferença percentual entre nossos preços e dos concorrentes?
-- Quais produtos top sellers estão mais caros que todos os concorrentes?
+  - Quais produtos estão mais caros que a média dos concorrentes?
+  - Quais produtos estão mais baratos no concorrente do que na nossa tabela?
+  - Qual é a diferença percentual entre nossos preços e dos concorrentes?
+  - Quais produtos top sellers estão mais caros que todos os concorrentes?
 
 - Análises Avançadas:
-- Qual é a receita total por categoria?
-- Quais categorias geram mais de R$ 50.000 em receita?
-- Qual é o ticket médio por segmento de cliente?
-- Quais produtos têm preço acima da média geral?
-- Quais produtos estão mais caros que a média dos concorrentes?
+  - Qual é a receita total por categoria?
+  - Quais categorias geram mais de R$ 50.000 em receita?
+  - Qual é o ticket médio por segmento de cliente?
+  - Quais produtos têm preço acima da média geral?
+  - Quais produtos estão mais caros que a média dos concorrentes?
 
 - Estruturas de Dados:
-- Como criar uma visão para produtos com vendas?
-- Como criar uma tabela para armazenar resumo de vendas por categoria?
-- Como criar uma visão temporária para análise rápida?
+  - Como criar uma visão para produtos com vendas?
+  - Como criar uma tabela para armazenar resumo de vendas por categoria?
+  - Como criar uma visão temporária para análise rápida?
 
 
 - Utilizar inteligência artificial para apoiar decisões.
@@ -76,26 +78,26 @@ Para a condução desta análise, foram estabelecidas algumas premissas com o ob
 Ferramentas Utilizadas:
 
 - Supabase:
-- Supabase é essencialmente PostgreSQL com uma interface moderna e ferramentas extras;
--  Compatível com AWS S3;
--  Interface web;
--  Editor SQL integrado, fácil de usar;
--  Gratuito - Plano free generoso para aprender.
+  - Supabase é essencialmente PostgreSQL com uma interface moderna e ferramentas extras;
+  -  Compatível com AWS S3;
+  -  Interface web;
+  -  Editor SQL integrado, fácil de usar;
+  -  Gratuito - Plano free generoso para aprender.
 
 - Python:
-- Google Colab;
-- Ecossistema rico: Boto3, SQLAlchemy, Pandas;
-- Integração: Fácil integração com bancos de dados, APIs, sistemas.
+  - Google Colab;
+  - Ecossistema rico: Boto3, SQLAlchemy, Pandas;
+  - Integração: Fácil integração com bancos de dados, APIs, sistemas.
 
 - DBT:
--  Código versionado (Git);
--  Testes integrados de qualidade dos dados;
--  Orquestração de dependências claras (resolvidas automaticamente);
--  Padrões de modelagem (bronze, silver, gold);
--  Documentação automática;
--  Transformação dos dados usando SQL;
--  Linha de execução com visualização como os modelos se relacionam;
--  Modelo de transformação reutilizavável.
+  -  Código versionado (Git);
+  -  Testes integrados de qualidade dos dados;
+  -  Orquestração de dependências claras (resolvidas automaticamente);
+  -  Padrões de modelagem (bronze, silver, gold);
+  -  Documentação automática;
+  -  Transformação dos dados usando SQL;
+  -  Linha de execução com visualização como os modelos se relacionam;
+  -  Modelo de transformação reutilizavável.
 
 1° Realizar login no Supabase e criar um projeto/banco de dados (ecommerce);
 
@@ -133,42 +135,42 @@ Data Lake S3 - Supabase Storage:
 
 5° Este projeto recria os principais KPIs utilizando o DBT para tratar os dados e arquitetura Medalhão. Os KPIs estão organizados em 3 Data Marts (áreas de negócio), seguindo o padrão usado pelas empresas:
 
-- Data Wharehouse - Objetivo: Repositório centralizado de dados organizados para análise e relatórios;: 
-- Repositório centralizado de dados organizados para análise e relatórios;
-- Performance para consultas;
-- Mantém histórico de dados para análise temporal;
-- Integração com múltiplas fontes de dados;
-- Estrutura otimizada para análises complexas;
-- Isolamento, não impacta sistemas operacionais.
+- Data Wharehouse - Objetivo: Repositório centralizado de dados organizados para análise e relatórios: 
+  - Repositório centralizado de dados organizados para análise e relatórios;
+  - Performance para consultas;
+  - Mantém histórico de dados para análise temporal;
+  - Integração com múltiplas fontes de dados;
+  - Estrutura otimizada para análises complexas;
+  - Isolamento, não impacta sistemas operacionais.
 
 - Camada Bronze (Raw Data) - Objetivo: Capturar dados exatamente como vêm da fonte (cópia) e criar o contrato mínimo do dado - Características:
-- Dados brutos, com transformações mínimas;
-- Padronização básica (seleciona colunas explícitas, padronização de nomes, tipos, remove lixo e adiciona);
-- Permite replay (reprocessar se necessário);
-- Histórico completo;
-- Schema estável (contrato fixo).
+  - Dados brutos, com transformações mínimas;
+  - Padronização básica (seleciona colunas explícitas, padronização de nomes, tipos, remove lixo e adiciona);
+  - Permite replay (reprocessar se necessário);
+  - Histórico completo;
+  - Schema estável (contrato fixo).
 
 - Camada Silver (Cleaned Data) - Objetivo: Limpar, padronizar e enriquecer dados - Características:
-- Dados limpos e padronizados;
-- Validações aplicadas;
-- Tratamento de nulos e duplicatas;
-- Enriquecimentos básicos;
-- Schema otimizado para análise.
+  - Dados limpos e padronizados;
+  - Validações aplicadas;
+  - Tratamento de nulos e duplicatas;
+  - Enriquecimentos básicos;
+  - Schema otimizado para análise.
 
 - Camada Gold (Business Metrics e Data Marts) - Objetivo: Criar métricas de negócio prontas para análise, organizadas em Data Marts - Características:
-- KPIs e métricas de negócio;
-- Organizados em Data Marts (áreas de negócio);
-- Agregações complexas;
-- Rankings e segmentações;
-- Dados prontos para dashboards;
-- Schema otimizado para consumo.
+  - KPIs e métricas de negócio;
+  - Organizados em Data Marts (áreas de negócio);
+  - Agregações complexas;
+  - Rankings e segmentações;
+  - Dados prontos para dashboards;
+  - Schema otimizado para consumo.
 
 - Data Marts - Objetivo: Criar subconjuntos de dados organizados por área de negócio - Características:
-- Foco: Cada área tem seus KPIs específicos;
-- Performance: Consultas mais rápidas (dados organizados);
-- Manutenção: Mais fácil de manter e atualizar;
-- Colaboração: Times diferentes trabalham em áreas diferentes;
-- Segurança: Permissões por área de negócio.
+  - Foco: Cada área tem seus KPIs específicos;
+  - Performance: Consultas mais rápidas (dados organizados);
+  - Manutenção: Mais fácil de manter e atualizar;
+  - Colaboração: Times diferentes trabalham em áreas diferentes;
+  - Segurança: Permissões por área de negócio.
 
 6° Transformação dos dados com DBT - IDE na Cloud;
 
