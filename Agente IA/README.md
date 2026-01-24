@@ -2,6 +2,9 @@
 
 O objetivo é criar um Agente de IA usando n8n, permitindo que usuários conversem com seu banco de dados de forma natural através do Telegram. O agente de IA funcionará no Telegram que consulta o banco Supabase usando linguagem natural.
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/701585f2-6c6b-4906-96c4-ead99338c432" />
+
+
 ---
 
 Agentes de IA são sistemas que combinam modelos de linguagem (como GPT) com ferramentas externas (Tools) para realizar tarefas complexas de forma autônoma.
