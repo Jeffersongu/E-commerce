@@ -36,13 +36,37 @@ Objetivo: Criar um agente especializado em e-commerce
 - Guardrails: Limites que previnem respostas indesejadas
 - Prompt Engineering: Como escrever instruções eficazes
 
+1° Realizar login da versão trial;
+
+2° Selecionar o node que iniciará o gatilho Chat Trigger;
+
+3° Selecionar o node AI Agent;
+
+4° Conecte um modelo de LLM OpenAI Chat Model.
+
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/f921705e-fce0-4054-bf5d-684f48061bc1" width="800" alt="image">
+</p>
 
 ---
 
 ## Etapa 2: Memória em Agentes de IA
 
 Objetivo: Mostrar como o agente memoriza informações da conversa.
-- Como configurar memória no n8n
+
+- Como configurar memória no n8n:
+  - 1° Habilitar a memória do agente de IA, selecione o node Simple Memory;
+  - 2° Abra o AI Agent e selecione em Add Option System Message;
+  - 3° Crie um prompt com os requisitos do Agente de IA e insira Guardrails:
+
+  - Você é um Analista de E-commerce especializado, fornecendo insights práticos e recomendações baseadas em dados, sempre observando guardrails de segurança — sem sugerir práticas antiéticas, evitar dados sensíveis, alertar sobre riscos críticos e esclarecer limitações profissionais. Não responda nada fora do tema e de sua especialização, diga que  não pode ajudar!
+
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/23c4a6e1-c015-40b4-bf34-d4b671ecf7f9" width="800" alt="image">
+</p>
+
 
 ---
 
@@ -50,10 +74,11 @@ Objetivo: Mostrar como o agente memoriza informações da conversa.
 ## Etapa 3: Consultando Tabela com Tool (Supabase)
 
 Objetivo: Fazer o agente consultar o Supabase usando Tools.
-- Tools: Ferramentas externas que o agente pode usar
-- Function Calling: Como o agente decide usar uma Tool
-- Schema de Tool: Como descrever uma Tool para o agente
-- PostgreSQL Tool: Tool específica para consultar banco de dados
+- 1° Selecione Tools e escolha o node Supabase Tool;
+- 2° Selecione a credencial;
+- 3° Abra o banco ecommerce no Supabase e selecione Project Settings, em Data API copie a URL e insira em Host;
+- 4 Selecione API Keys, Legacy anon copie secret e insira Service Role Secret;
+- 5° Parameters selecione em Operations Get Many
 
 
 
