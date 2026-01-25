@@ -138,8 +138,9 @@ Objetivo: Criar um Bot para responder perguntas de negócio.
 - 13° Chat ID - Telegram Trigger arraste From ID em Text arraste o parâmetro AI Agente Output, execute o step;
 
 <p align="center">
-<img src="image" src="https://github.com/user-attachments/assets/33854be5-f276-459f-8e9b-382513879fe7" width="800" alt="image">
+<img src="https://github.com/user-attachments/assets/adbeeb88-d406-478d-8fff-8e61902081c3" width="800" alt="image">
 </p>
+
 
 ---
 
