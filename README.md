@@ -1,4 +1,4 @@
-# E-commerce
+# E-commerce (Em execução)
 
 <!-- https://github.com/gabriellbezerra/ed_de_ecommerce_dw_to_n8n_agent -->
 
