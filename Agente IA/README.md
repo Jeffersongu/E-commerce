@@ -3,7 +3,7 @@
 O objetivo é criar um Agente de IA usando n8n, permitindo que usuários conversem com seu banco de dados de forma natural através do Telegram. O agente de IA funcionará no Telegram que consulta o banco Supabase usando linguagem natural.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/701585f2-6c6b-4906-96c4-ead99338c432" width="600" alt="image">
+<img src="https://github.com/user-attachments/assets/b58ae5c9-9d41-4586-866e-cb3b82312550" width="600" alt="image">
 </p>
 
 ---
@@ -27,7 +27,16 @@ O diagrama abaixo mostra como o Agente de IA funciona:
 
 ---
 
+## Ferramentas Utilizadas
 
+- N8N;
+- OpenAI;
+- Supabase;
+- Telegram.
+
+
+
+---
 
 ## Etapa 1: Agente de E-commerce
 
@@ -81,4 +90,62 @@ Objetivo: Fazer o agente consultar o Supabase usando Tools.
 - 5° Parameters selecione em Operations Get Many
 
 
+---
+
+## Etapa 4: Bot no Telegram
+
+Objetivo: Criar um Bot para responder perguntas de negócio.
+
+- 1° Criar Bot com BotFather: Procure por @BotFather e Envie /newbot no Telegram;
+  
+- 2° Escolha um nome: especialistaecommerceanalyses_bot;
+  
+- 3° Escolha um username: JeffDados_bot;
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/92b3dc84-baae-4097-8c4a-6b6a9f2c9f83" width="400" alt="image">
+</p>
+
+  
+- 4° Copie (Use this token to access the HTTP API) o tolken que o BotFather fornecer e procure pelo bot criado;
+
+- 5° Procure pelo node Telegram, em Triggers selecione On Message;
+
+- 6° Crie uma conta nova e cole o Token de acesso:
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/3db4c5ce-f501-43a3-862e-1ba1c2cb84b8" width="800" alt="image">
+</p>
+  
+
+- 7° Execute step e envie uma mensagem para o bot;
+
+- 8° Apague gatilho Chat Trigger e conecte o Telegram Trigger;
+
+- 9° Clique no IA Agent e altere Source for Prompt (User Message) para Define below, repita para o node Simple Memory;
+
+- 10° Em Prompt (User Message) arraste T Text e execute o passo 
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/394aa755-fb71-4d24-b4a0-397d27d017d3" width="400" alt="image">
+</p>
+  
+
+- 11° Procure o node de saída Telegram Send a Text Message;
+
+- 12° Conecte a credencial, Resource Message, Operation Send Message;
+
+- 13° Chat ID - Telegram Trigger arraste From ID em Text arraste o parâmetro AI Agente Output, execute o step;
+
+<p align="center">
+<img src="image" src="https://github.com/user-attachments/assets/33854be5-f276-459f-8e9b-382513879fe7" width="800" alt="image">
+</p>
+
+---
+
+## Próximos Passos
+
+- Alterar o meio de interação com o Agente de IA para Whatsapp;
+- Memória com conexão ao Banco de Dados PostgreSQL;
+- Consulta direta ao Data Marts.
 
