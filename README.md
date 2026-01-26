@@ -218,8 +218,10 @@ Data Lake S3 - Supabase Storage:
 
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/783ac918-a4cb-4902-9fe2-1f42176a8685" width="800" alt="image">
+<img src="https://github.com/user-attachments/assets/8cca8eb1-029b-4f1f-924a-6efd46f20d85" width="800" alt="image">
 </p>
+
+
 
 ---
 ## 5° Insights da Análise
