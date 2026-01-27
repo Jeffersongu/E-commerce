@@ -23,7 +23,9 @@ Agentes de IA permitem:
 
 O diagrama abaixo mostra como o Agente de IA funciona:
 
-<img width="721" height="847" alt="image" src="https://github.com/user-attachments/assets/00eeae47-7a42-40d8-ba13-300cb4e489d5" />
+<p align="center">
+<img src="https://github.com/user-attachments/assets/4632450d-c8a9-410c-9e27-4c3fbf087567" width="9000" alt="image">
+</p>
 
 ---
 
