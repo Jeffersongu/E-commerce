@@ -3,7 +3,8 @@
 Nesta etapa do projeto, foi desenvolvido o processo de ingestão de dados para um banco de dados em nuvem, utilizando Supabase. Supabase Storage (Data Lake) simula o Storage S3 da AWS e o Python, com o objetivo de preparar os dados para as próximas etapas de transformação com dbt.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/9a646442-db66-48be-bc8d-b3c0d8c60e62" width="600" alt="image">
+<img src="https://github.com/user-attachments/assets/172ab40b-479b-401e-8a07-b8b438315678"
+" width="300" alt="image">
 </p>
 
 </br>
@@ -66,7 +67,8 @@ Foram carregados manualmente arquivos CSV no banco de dados Ecommerce, contendo 
 2° Subir os arquivos CSV para o banco de dados Ecommerce (produtos, clientes e vendas):
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/19395688-a4b0-47c0-a8a7-ad3341efef68" width="400" alt="image">
+<img src="https://github.com/user-attachments/assets/c129ee01-0892-415c-8b54-6cf485b440c9"
+" width="400" alt="image">
 </p>
 
 
@@ -77,7 +79,7 @@ Foi criado um Data Lake utilizando o Supabase Storage, com o objetivo de armazen
 3° Desenvolver um Data Lake S3 - Supabase Storage;
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/9a646442-db66-48be-bc8d-b3c0d8c60e62" width="600" alt="image">
+<img src="https://github.com/user-attachments/assets/0f1da56a-d098-41fb-93b4-bff752d9673b" width="400" alt="image">
 </p>
 
 Diferenças entre Data Lake e Banco de Dados: Data Lake é um local para armazenar dados em diversos formatos, ou seja, arquivos estruturados, semi estruturados e não estruturados, normalmente estão em cloud e o acesso ocorre por uma API/LIB. Banco de dados contém tabelas, ou seja, dados estruturados.
