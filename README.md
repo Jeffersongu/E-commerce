@@ -1,4 +1,4 @@
-# E-commerce (Em execução)
+# Análise de E-commerce com Agente de IA (Em execução)
 
 <!-- https://github.com/gabriellbezerra/ed_de_ecommerce_dw_to_n8n_agent -->
 
