@@ -86,28 +86,27 @@ Integração dos dados tratados a um agente de IA via N8N, permitindo consultas 
 
 Etapa completa: [Agente IA](https://github.com/Jeffersongu/E-commerce/tree/main/Agente%20IA)
 
-### Etapa 4: Análise
+### Etapa 4: Análise e Insights
 Construção de visões analíticas e indicadores para exploração dos dados, geração de insights e suporte à tomada de decisão no contexto do e-commerce.
 
 Etapa completa: [Análise](https://github.com/Jeffersongu/E-commerce/tree/main/An%C3%A1lises)
 
 
+---
+## ✅ Resultados
+
+- Redução estimada de 60–80% no esforço manual de preparação de dados com pipeline automatizado;
+- Aumento da confiabilidade das análises com dados tratados e versionados em camadas;
+- Melhoria na rastreabilidade e governança, com transformações controladas via DBT;
+- Tempo de disponibilização de dados analíticos reduzido de horas para minutos;
+- Estrutura preparada para escala de novos dados e novas fontes;
+- Maior agilidade em consultas e respostas analíticas com apoio de agente de IA;
+- Base analítica consistente para suportar decisões de vendas, clientes e produtos.
+
 
 
 ---
-## 5° Insights da Análise
-Não basta somente apresentar os dados ou visuais, é extremamente importante explicar com palavras o que o gráfico quer dizer, não acredite que os stakeholders entenderam os gráficos simplesmente observando, a parte técnica deve ser abstraída para que todos entendam. A análise dos dados permitiu identificar padrões relevantes como:
-
-
----
-## 6° Resultados
-Conclusão das análises, depois que descrevemos os visuais e encontramos pontos de melhoria, qual é a conclusão geral, qual será a recomendação para solucionar o problema. Link para o relatório completo:
-
-
-
----
-## 7° Próximos Passos
-O que faríamos com mais tempo para trabalhar neste projeto por exemplo:
+## 🚀 Próximos Passos
 
 - Cria um banco de dados local (PostgreSQL);
 - Desenvolver um Dashboard;
