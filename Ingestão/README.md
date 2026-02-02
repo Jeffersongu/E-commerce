@@ -1,4 +1,4 @@
-## Visão Geral da Ingestão de Dados
+## 📊 Visão Geral da Ingestão de Dados
 
 Nesta etapa do projeto, foi desenvolvido o processo de ingestão de dados para um banco de dados em nuvem, utilizando Supabase. Supabase Storage (Data Lake) simula o Storage S3 da AWS e o Python, com o objetivo de preparar os dados para as próximas etapas de transformação com dbt.
 
@@ -10,8 +10,7 @@ Nesta etapa do projeto, foi desenvolvido o processo de ingestão de dados para u
 </br>
 
 ---
-
-## Tecnologias Utilizadas na Ingestão
+## 🛠️ Tecnologias Utilizadas na Ingestão
 
 Supabase (PostgreSQL):
 
@@ -41,10 +40,9 @@ Python:
 
 
 ---
+## 🖥️ Criação do Projeto no Supabase - Banco de Dados E-commerce
 
-## Criação do Projeto no Supabase - Banco de Dados E-commerce
-
-### Criação do Projeto no Supabase:
+### Etapa 1: Criação do Projeto no Supabase
 - Login na plataforma Supabase;
 - Criação de um novo projeto e banco de dados chamado Ecommerce;
 - Configuração inicial do ambiente para receber dados estruturados.
@@ -54,7 +52,7 @@ Python:
 1° Realizar login no Supabase e criar um projeto/banco de dados (ecommerce);
 
 
-### Carga Inicial de Dados via CSV:
+### Etapa 2: Carga Inicial de Dados via CSV
 
 Foram carregados manualmente arquivos CSV no banco de dados Ecommerce, contendo as seguintes tabelas:
 
@@ -71,8 +69,9 @@ Foram carregados manualmente arquivos CSV no banco de dados Ecommerce, contendo 
 " width="400" alt="image">
 </p>
 
+<br/>
 
-### Implementação do Data Lake (Supabase Storage):
+### Etapa 3: Implementação do Data Lake (Supabase Storage)
 
 Foi criado um Data Lake utilizando o Supabase Storage, com o objetivo de armazenar dados em formatos variados, separados do banco relacional.
 
@@ -82,6 +81,8 @@ Foi criado um Data Lake utilizando o Supabase Storage, com o objetivo de armazen
 <img src="https://github.com/user-attachments/assets/0f1da56a-d098-41fb-93b4-bff752d9673b" width="400" alt="image">
 </p>
 
+<br/>
+
 Diferenças entre Data Lake e Banco de Dados: Data Lake é um local para armazenar dados em diversos formatos, ou seja, arquivos estruturados, semi estruturados e não estruturados, normalmente estão em cloud e o acesso ocorre por uma API/LIB. Banco de dados contém tabelas, ou seja, dados estruturados.
 
 Data Lake S3 - Supabase Storage:
@@ -90,8 +91,9 @@ Data Lake S3 - Supabase Storage:
 <img src="https://github.com/user-attachments/assets/9ba4053a-f475-406f-84bf-0f668d7d96ba" width="600" alt="image">
 </p>
 
+<br/>
 
-### Ingestão de Dados em Parquet com Python:
+### Etapa 4: Ingestão de Dados em Parquet com Python
 
 Nesta etapa, foi desenvolvido um processo de ingestão de dados externos utilizando Python, com armazenamento em formato Parquet, simulando um cenário real de ingestão de dados analíticos.
 
