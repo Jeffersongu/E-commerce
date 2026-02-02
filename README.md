@@ -4,12 +4,19 @@
 
 ## 📊 Visão Geral do Projeto
 
-Uma empresa de e-commerce está aumentando sua operação digital e precisa usar dados para tomar decisões melhores. Você vai construir um sistema completo de dados que:
+A empresa atua no setor de e-commerce e está em fase de expansão digital, buscando estruturar o uso de dados para apoiar decisões estratégicas e operacionais. Seu portfólio contempla diversas categorias de produtos como eletrônicos, casa, cozinha e vestuário, atendendo diferentes perfis de clientes. Inserida em um ambiente altamente competitivo, a operação disputa mercado com grandes marketplaces, o que torna essencial o uso de dados confiáveis para análise de desempenho, preços e comportamento de vendas.
 
-- Conecta dados de diferentes fontes;
-- Estrutura um pipeline automático de engenharia de dados;
-- Analisa dos Dados;
-- Utilizar inteligência artificial para apoiar decisões.
+
+---
+### 🔍 Contexto
+
+A empresa está ampliando sua operação digital e precisa estruturar o uso de dados para apoiar decisões mais rápidas e assertivas. Neste projeto, é solicitado uma solução completa de dados, capaz de:
+
+- Integrar dados provenientes de múltiplas fontes;
+- Implementar um pipeline automatizado de engenharia de dados;
+- Tratar e organizar informações para análise confiável;
+- Aplicar recursos de inteligência artificial para suporte à tomada de decisão.
+
 
 ---
 ## 🎯 Objetivos
@@ -111,4 +118,4 @@ Etapa completa: [Análise](https://github.com/Jeffersongu/E-commerce/tree/main/A
 - Cria um banco de dados local (PostgreSQL);
 - Desenvolver um Dashboard;
 - Web Scraping - Análise de concorrência;
-- API Externas;
+- API Externas.
