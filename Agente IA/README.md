@@ -1,12 +1,4 @@
-## Agente de IA com N8N
-
-O objetivo é criar um Agente de IA usando n8n, permitindo que usuários conversem com seu banco de dados de forma natural através do Telegram. O agente de IA funcionará no Telegram que consulta o banco Supabase usando linguagem natural.
-
-<p align="center">
-<img src="https://github.com/user-attachments/assets/b58ae5c9-9d41-4586-866e-cb3b82312550" width="600" alt="image">
-</p>
-
----
+## 🤖 Agente de IA com N8N
 
 Agentes de IA são sistemas que combinam modelos de linguagem (como GPT) com ferramentas externas (Tools) para realizar tarefas complexas de forma autônoma.
 
@@ -19,17 +11,32 @@ Agentes de IA permitem:
 - Executar ações - Fazer queries, cálculos, análises automaticamente
 
 
-## Fluxo de Dados com Agente de IA
+---
+## 🎯 Objetivos
+
+O objetivo é criar um Agente de IA usando n8n, permitindo que usuários conversem com seu banco de dados de forma natural através do Telegram. O agente de IA funcionará no Telegram que consulta o banco Supabase usando linguagem natural.
+
+<br/>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/b58ae5c9-9d41-4586-866e-cb3b82312550" width="600" alt="image">
+</p>
+
+
+---
+## 🔄 Fluxo de Dados com Agente de IA
 
 O diagrama abaixo mostra como o Agente de IA funciona:
+
+<br/>
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/4632450d-c8a9-410c-9e27-4c3fbf087567" width="9000" alt="image">
 </p>
 
----
 
-## Ferramentas Utilizadas
+---
+## 🛠️ Ferramentas Utilizadas
 
 - N8N;
 - OpenAI;
@@ -37,10 +44,10 @@ O diagrama abaixo mostra como o Agente de IA funciona:
 - Telegram.
 
 
-
 ---
+## 📝 Estratégia 
 
-## Etapa 1: Agente de E-commerce
+### Etapa 1: Agente de E-commerce
 
 Objetivo: Criar um agente especializado em e-commerce
 - System Message: Instruções que definem o comportamento do agente
@@ -60,9 +67,9 @@ Objetivo: Criar um agente especializado em e-commerce
 <img src="https://github.com/user-attachments/assets/f921705e-fce0-4054-bf5d-684f48061bc1" width="800" alt="image">
 </p>
 
----
 
-## Etapa 2: Memória em Agentes de IA
+---
+### Etapa 2: Memória em Agentes de IA
 
 Objetivo: Mostrar como o agente memoriza informações da conversa.
 
@@ -80,9 +87,7 @@ Objetivo: Mostrar como o agente memoriza informações da conversa.
 
 
 ---
-
-
-## Etapa 3: Consultando Tabela com Tool (Supabase)
+### Etapa 3: Consultando Tabela com Tool (Supabase)
 
 Objetivo: Fazer o agente consultar o Supabase usando Tools.
 - 1° Selecione Tools e escolha o node Supabase Tool;
@@ -93,8 +98,7 @@ Objetivo: Fazer o agente consultar o Supabase usando Tools.
 
 
 ---
-
-## Etapa 4: Bot no Telegram
+### Etapa 4: Bot no Telegram
 
 Objetivo: Criar um Bot para responder perguntas de negócio.
 
@@ -145,8 +149,7 @@ Objetivo: Criar um Bot para responder perguntas de negócio.
 
 
 ---
-
-## Próximos Passos
+## 🚀 Próximos Passos
 
 - Alterar o meio de interação com o Agente de IA para Whatsapp;
 - Memória com conexão ao Banco de Dados PostgreSQL;
