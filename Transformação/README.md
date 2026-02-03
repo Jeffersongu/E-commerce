@@ -1,4 +1,4 @@
-# Tratamento e Transformação de Dados (dbt)
+## ⚙️ Tratamento e Transformação de Dados (dbt)
 
 Nesta etapa do projeto, foi construída a camada de transformação de dados no Data Warehouse PostgreSQL (Supabase) utilizando o DBT Cloud, aplicando a Arquitetura Medalhão. Os dados percorrem um fluxo estruturado entre as camadas Bronze (dados brutos), Silver (dados tratados e padronizados) e Gold (métricas de negócio), garantindo qualidade, rastreabilidade e performance. A partir da camada Gold, os dados são organizados em Data Marts orientados ao negócio (Sales, Pricing e Customer Success), disponibilizando KPIs prontos para análise e tomada de decisão, seguindo práticas amplamente adotadas em ambientes corporativos.
 
@@ -6,7 +6,7 @@ Nesta etapa do projeto, foi construída a camada de transformação de dados no 
 
 
 ---
-# Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 - DBT:
   -  Código versionado (Git);
   -  Testes integrados de qualidade dos dados;
@@ -17,7 +17,9 @@ Nesta etapa do projeto, foi construída a camada de transformação de dados no 
   -  Linha de execução com visualização como os modelos se relacionam;
   -  Modelo de transformação reutilizavável.
 
-# Arquitetura de Dados (Medalhão)
+
+---
+## 🏅 Arquitetura de Dados (Medalhão)
 
 Este projeto recria os principais KPIs utilizando o DBT para tratar os dados e arquitetura Medalhão. Os KPIs estão organizados em 3 Data Marts (áreas de negócio), seguindo o padrão usado pelas empresas:
 
@@ -58,7 +60,9 @@ Este projeto recria os principais KPIs utilizando o DBT para tratar os dados e a
   - Colaboração: Times diferentes trabalham em áreas diferentes;
   - Segurança: Permissões por área de negócio.
 
-# Configuração do dbt Cloud
+
+---
+### Etapa 1: Configuração do dbt Cloud
 
 1° Transformação dos dados com DBT - IDE na Cloud;
 
@@ -72,7 +76,7 @@ Este projeto recria os principais KPIs utilizando o DBT para tratar os dados e a
 
 4° Set o projeto no repositório do GitHub;
 
-# Configuração do dbt_project.yml
+### Etapa 2: Configuração do dbt_project.yml
 
 5° Iniciar o dbt project e realize o commit (Models: Delete folder example e crie Folder bronze, silver e gold);
 
@@ -87,7 +91,7 @@ Este projeto recria os principais KPIs utilizando o DBT para tratar os dados e a
 <img src="https://github.com/user-attachments/assets/cb547e37-3143-4edc-8ff7-1204c69f1d52" width="800" alt="image">
 </p>
 
-# Configuração das Fontes de Dados (_sources.yml)
+### Etapa 3: Configuração das Fontes de Dados (_sources.yml)
 
 7° Definir a fontes de Dados (_sources.yml) com o arquivo _sources.yml que documenta as tabelas raw (fonte original dos dados):
 - Define de onde vêm os dados (tabelas raw);
@@ -99,7 +103,7 @@ Este projeto recria os principais KPIs utilizando o DBT para tratar os dados e a
 <img src="https://github.com/user-attachments/assets/3a2a9670-5c4e-4f09-93e1-9d3638071074" width="800" alt="image">
 </p>
 
-# Desenvolvimento dos Modelos SQL
+### Etapa 4: Desenvolvimento dos Modelos SQL
 
 8° Defina os scrypts sql para cada tabela das camadas (commit e merge em cada camada), para finalizar materialize as tabelas no banco ecommerce (Build models);
 
@@ -109,4 +113,3 @@ Este projeto recria os principais KPIs utilizando o DBT para tratar os dados e a
 <img src="https://github.com/user-attachments/assets/da11bd76-df72-419f-af72-ac6d221c57d5" width="800" alt="image">
 </p>
 
-- Acesse o código: [Transformação](https://github.com/Jeffersongu/E-commerce/tree/main/Transforma%C3%A7%C3%A3o)
